@@ -16,4 +16,4 @@ These config files configure nginx and dnsmaq to be a fairly quick caching proxy
 ***Is it working?***
 
 Use the following command to see if subsequent game downloads being sourced from cache (HIT):
-> tailf /var/log/nging/steamcontent.access.log
+> tailf /var/log/nginx/steamcontent.access.log
